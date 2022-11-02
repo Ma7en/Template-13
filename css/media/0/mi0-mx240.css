@@ -1,0 +1,164 @@
+
+/* 
+
+    240 => jioohone 2 
+
+*/
+
+@media (min-width: 0) and (max-width: 240px) {
+    .container {
+        width: 220px;
+    }
+
+    /*  */
+    .special-heading {
+        font-size: 55px;
+    }
+    
+    .special-heading + p {
+        font-size: 13px;
+    }
+
+
+
+    /*  */
+    .header .container {
+        max-width: 220px;
+    }
+
+    .header .logo {
+        width: 40px;
+    }
+
+    .header .links .icon {
+        width: 20px;
+    }
+
+    .header .links ul {
+        min-width: 100px;
+    }
+
+    /*  */
+    .landing {
+        height: calc(100vh - 60px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .landing .intro-text p{
+        font-size: 10px;
+        padding: 0 10px;
+    }
+
+    /*  */
+    .features .container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-items: center;
+        width: 240px;
+    }
+
+    .features .feat {
+        width: 220px;
+    }
+
+    .features .feat i {
+        font-size: 35px;
+    }
+
+
+
+
+    /*  */
+    .services .container {
+        width: 240px;
+    }
+
+    .services .services-content {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        width: 210px;
+        justify-items: center;
+    }
+
+    .services .services-content .col {
+        width: 200px;
+    }
+
+    .services .services-content .srv  {
+        width: 200px;
+    }
+
+    .services .services-content .srv i {
+        width: 200px;
+        font-size: 35px;
+    }
+
+    .services .services-content .srv .text {
+        width: 200px;
+    }
+
+    /*  */
+    .portfolio .container {
+        width: 220px;
+    }
+
+    .portfolio .portfolio-content {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+
+    .portfolio .portfolio-content .card {
+        width: 200px;
+        margin-left: -5px;
+    }
+
+    /*  */
+    .about {
+        padding-bottom: 60px;
+    }
+
+    .about .about-content .image {
+        width: 190px;
+        height: 325px;
+        margin-bottom: 20px;
+    }
+
+    .about .about-content .text p:first-of-type,
+    .about .about-content .text p:last-of-type {
+        font-size: 13px;
+    }
+
+    /*  */
+    .contact .info {
+        width: 200px;
+    }
+
+    .contact .info .label {
+        font-size: 20px;
+    }
+
+    .contact .info .link {
+        font-size: 18px;
+    }
+
+    .contact .info .social {
+        width: 190px;
+        align-items: center
+    }
+
+    /*  */
+    .footer {
+        font-size: 13px;
+        padding: 30px 5px;
+    }
+
+    .footer .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+
+

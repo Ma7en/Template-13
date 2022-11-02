@@ -1,0 +1,117 @@
+
+/*  */
+
+@media (max-width: 991px) {
+
+
+
+    /* 1 start header */
+
+
+
+    /* 2 start landing */
+
+
+
+
+
+    /* 3 start features */
+
+
+
+
+    /* 4 start Services */
+    .services .services-content .img-ser {
+        display: none;
+    }
+
+    .services .services-content .srv {
+        /* box-shadow: 5px 5px 10px #444; */
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+
+
+
+
+    /* 5 start portfolio */
+
+
+
+
+    /* 6 start about */
+    .about .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .about-content .image {
+        margin: 0 auto 60px;
+        border-radius: 10px;
+    }
+
+    .about .about-content .image {
+        box-shadow: 10px 10px 20px 0px var(--main-color);
+        transition: var(--main-transition);
+        -webkit-transition: var(--main-transition);
+        -moz-transition: var(--main-transition);
+        -ms-transition: var(--main-transition);
+        -o-transition: var(--main-transition);
+    }
+
+    .about .about-content .image:hover {
+        box-shadow: -10px -10px 20px 0px var(--main-color);
+    }
+
+    /* .about .about-content .image::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: -30px;
+        left: -30px;
+        background-color: #ebeced;
+        z-index: 0;
+    }
+
+    .dark .about .about-content .image::before {
+        background-color: var(--main-color);
+    }
+
+    .about .about-content .image::after {
+        content: "";
+        position: absolute;
+        top: -30px;
+        right: -160px;
+        width: 130px;
+        height: 250px;
+        border-left: 80px solid var(--main-color, #10cab7);
+        border-bottom: 80px solid var(--main-color, #10cab7);
+        z-index: 0;
+    } */
+
+    .about .about-content .image::before,
+    .about .about-content .image::after {
+        display: none;
+    }
+
+    .about .about-content .image img {
+        border-radius: 10px;
+    }
+
+
+
+    /* 7 start contact */
+
+
+
+
+
+    /* 8 start footer */
+
+
+}

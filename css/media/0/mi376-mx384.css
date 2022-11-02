@@ -1,0 +1,112 @@
+
+/* 
+384 =>  lg optimus l70 , 
+        nexus 4 
+        
+*/
+
+@media (min-width: 376px) and (max-width: 384px) {
+    .container {
+        width: 360px;
+    }
+
+
+    /*  */
+    .special-heading {
+        font-size: 85px;
+    }
+
+    .special-heading + p {
+        font-size: 20px;
+    }
+
+
+    /*  */
+    /* .header {
+        width: 340px;
+    } */
+
+    .header .container {
+        margin-right: 0px ;
+    }
+
+    .header .links ul {
+        min-width: 140px ;
+    }
+
+
+
+    /*  */
+    .landing {
+
+        height: calc(100vh - 55px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 50px;
+    }
+
+    .landing .intro-text p {
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+
+
+
+    /*  */
+    .contact .info {
+        width: 320px;
+        padding-bottom: 20px;
+    }
+
+    .contact .info .label {
+        font-size: 30px;
+    }
+
+    .contact .info .link {
+        font-size: 25px;
+    }
+
+    .contact .info .social {
+        width: 280px;
+        align-items: center;
+    }
+
+
+    /*  */
+    .footer {
+        font-size: 20px;
+        padding: 30px 5px;
+    }
+
+    .footer .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

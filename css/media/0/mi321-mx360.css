@@ -1,0 +1,190 @@
+
+/* 
+360 =>  blackberry z30 , 
+        galaxy note 3 , 
+        galaxy note ll , 
+        galaxy s ll , 
+        galaxy s5, 
+        microsoft lumia 950 , 
+        moto g4 , 
+        nexus 5 
+
+*/
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .container {
+        width: 340px;
+    }
+
+
+
+    /*  */
+    .special-heading {
+        font-size: 80px;
+    }
+
+    .special-heading + p {
+        font-size: 18px;
+    }
+
+
+    /*  */
+    .header {
+        width: 340px;
+    }
+
+    .header .container {
+        margin-right: 0px ;
+    }
+
+    .header .links ul {
+        min-width: 140px ;
+    }
+
+
+    /*  */
+    .landing {
+
+        height: calc(100vh - 60px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 50px;
+    }
+
+    .landing .intro-text p {
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+
+
+    /*  */
+    .features .container {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .features .feat {
+        width: 340px;
+    }
+
+    .features .feat i {
+        font-size: 40px;
+    }
+
+    .features .feat h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .features .feat p {
+        font-size: 18px;
+    }
+
+
+    /*  */
+    .services .services-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        margin-top: 80px;
+        justify-items: center
+    }
+
+    .services .services-content .col {
+        width: 340px;
+    }
+
+    .services .services-content .srv i {
+        font-size: 40px;
+    }
+
+    .services .services-content .srv .text h3 {
+        font-size: 23px;
+    }
+
+
+    /*  */
+    /* .portfolio .portfolio-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        margin-top: 60px;
+    } */
+
+    /* .portfolio .portfolio-content .card {
+        width: 310px;
+    } */
+
+    .portfolio .portfolio-content .card .info h3 {
+        font-size: 25px;
+    }
+
+
+
+    /*  */
+    /* .about {
+        padding-bottom: 60px;
+    } */
+
+    /* .about-content  */
+
+    /* .about .about-content .image {
+        width: 190px;
+        height: 325px;
+        margin-bottom: 20px;
+    } */
+
+    /* .about .about-content .image {
+        width: 340px;
+    } */
+
+    /* .about .about-content .text p:first-of-type,
+    .about .about-content .text p:last-of-type {
+        font-size: 13px;
+    } */
+
+
+    /*  */
+    .contact .info {
+        width: 320px;
+        padding-bottom: 20px;
+    }
+
+    .contact .info .label {
+        font-size: 30px;
+    }
+
+    .contact .info .link {
+        font-size: 25px;
+    }
+
+    .contact .info .social {
+        width: 280px;
+        align-items: center;
+    }
+
+
+
+    /*  */
+    .footer {
+        font-size: 20px;
+        padding: 30px 5px;
+    }
+
+    .footer .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+

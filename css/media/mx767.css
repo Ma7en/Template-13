@@ -1,0 +1,113 @@
+
+@media (max-width: 767px) {
+
+    .special-heading {
+        font-size: 60px;
+    }
+
+    .special-heading + p {
+        font-size: 15px;
+        margin-top: -15px;
+    }
+
+
+    /* 1 start header */
+
+
+
+    /* 2 start landing */
+
+
+
+
+
+    /* 3 start features */
+    .features .feat {
+        /* box-shadow: 5px 5px 10px #444; */
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+
+    .features .feat:hover {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+
+
+
+    /* 4 start Services */
+
+    .services .services-content {
+        gap: 20px;
+    }
+
+    .services .services-content .col .srv:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .services .services-content .srv {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+
+    .services .services-content .srv:hover {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+
+
+
+    /* 5 start portfolio */
+    .portfolio .portfolio-content .card:hover {
+        box-shadow: none;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+
+    .portfolio .portfolio-content .card .info {
+        text-align: center;
+    }
+
+
+
+    /* 6 start about */
+    .about .about-content .text p:first-of-type {
+        font-weight: normal;
+    }
+
+
+
+
+    /* 7 start contact */
+    .contact .info .label,
+    .contact .info .link {
+        font-size: 25px;
+    }
+
+
+
+
+
+
+    /* 8 start footer */
+
+
+
+    
+
+}
+

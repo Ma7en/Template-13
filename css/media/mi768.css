@@ -1,0 +1,63 @@
+
+/* 
+&&&& samll 
+
+*/
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+
+    /* 1 start header */
+
+
+
+    /* 2 start landing */
+
+
+
+
+
+    /* 3 start features */
+
+
+
+
+    /* 4 start Services */
+    /* .services .services-content .srv:hover {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+    } */
+
+
+
+    /* 5 start portfolio */
+
+
+
+
+    /* 6 start about */
+
+
+
+
+    /* 7 start contact */
+
+
+
+
+
+    /* 8 start footer */
+
+
+
+
+
+
+
+}
+

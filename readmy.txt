@@ -1,0 +1,261 @@
+
+
+
+
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .special-heading {
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+
+    .special-heading + p {
+        font-size: 15px;
+    }
+} */
+
+
+/* 777777777 */
+/* @media (max-width: 767px) {
+    .special-heading {
+        font-size: 60px;
+    }
+
+    .special-heading + p {
+        margin-top: -20px;
+    }
+} */
+
+
+
+
+/* 280 phone galaxy fold */
+/* @media (max-width: 280px) {
+
+    .header {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .header .links ul {
+        z-index: 3;
+        min-width: 150px;
+        overflow: visible !important;
+    }
+} */
+
+/* x samll screen 320 */
+/* @media (max-width: 320px) {
+    .container {
+        width: 300px;
+    }
+} */
+
+
+
+
+
+/* 280 phone galaxy fold */
+/* @media (max-width: 280px) {
+    .landing {
+        height: calc(70vh);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .landing .intro-text p {
+        font-size: 15px;
+    }
+} */
+
+
+
+/*  */
+/* @media (min-width: 320px) {
+    .landing {
+        width: calc(100% + 5px);
+        height: calc(92vh );
+    }
+
+    .landing .intro-text h1 {
+        font-size: 40px;
+    }
+
+    .landing .intro-text p {
+        font-size: 15px;
+    }
+} */
+
+
+/* 280 phone galaxy fold  */
+/* @media (max-width: 280px) {
+
+
+    .features .feat {
+        width: 240px;
+    }
+
+    .features .feat i {
+        font-size: 30px;
+    }
+
+    .features .feat h3 {
+        font-weight: 600;
+    }
+
+    .features .feat p {
+        font-size: 15px;
+    }
+} */
+
+
+/* x samll screen */
+/* @media (min-width: 320px) {
+    .features {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .features .container {
+        width: calc(100% + 5px);
+        background-color: var(--section-bgcolor, #f6f6f6);
+        padding-top: var(--section-padding-60, 60px);
+        padding-bottom: var(--section-padding-60, 60px);
+    }
+    .features .feat {
+        padding: 20px 20px 20px 10px;
+    }
+} */
+
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .services .services-content .srv {
+        width: 240px;
+    }
+
+    .services .services-content .srv i {
+        width: 220px;
+    }
+
+    .services .services-content .srv .text {
+        width: 220px;
+    }
+} */
+
+
+/*  */
+/* @media (max-width: 767px) {
+    
+} */
+
+
+/*  */
+/* @media (max-width: 1199px) {
+    .image-column {
+        display: none;
+    }
+} */
+
+/* x samll screen */
+/* @media (min-width: 320px) {
+    .portfolio .portfolio-content .card {
+        width: 275px;
+    }
+} */
+
+
+
+
+
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .portfolio .portfolio-content .card {
+        width: 230px;
+    }
+} */
+
+/* x samll screen 320 */
+/* @media (max-width: 320px) {
+    .portfolio .portfolio-content .card {
+        width: 270px;
+    }
+} */
+
+
+
+
+
+
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .about .about-content .image {
+        width: 220px;
+        height: 345px;
+        margin-bottom: 40px;
+    }
+
+    .about .about-content .text p:first-of-type {
+        margin-bottom: 40px ;
+        font-size: 15px;
+    }
+
+    .about .about-content .text p:last-of-type {
+        font-size: 15px;
+    }
+} */
+
+
+/* x samll screen */
+/* @media (min-width: 320px) {
+    .about .about-content .image {
+        margin-bottom: 50px;
+    }
+} */
+
+
+
+/* x samll screen */
+/* @media (min-width: 320px) {
+    .about .about-content .image img {
+        border-radius: 10px;
+    }
+
+    .about .about-content .text p:first-of-type {
+        margin-bottom: 20px;
+    }
+} */
+
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .contact {
+        padding-bottom: 20px;
+    }
+
+    .contact .info .link {
+        font-size: 20px;
+    }
+
+    .contact .info .label {
+        letter-spacing: -1px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+} */
+
+/* 280 */
+/* @media (max-width: 280px) {
+    .container {
+        overflow: hidden;
+    }
+    .footer {
+        font-size: 14px;
+    }
+} */
+

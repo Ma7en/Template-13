@@ -1,0 +1,119 @@
+
+
+/* 
+480 => nokia n9 , 
+
+*/
+
+@media (min-width: 412px) and (max-width: 480px) {
+    .container {
+        width: 460px;
+    }
+
+
+    /*  */
+    .special-heading {
+        font-size: 95px;
+    }
+
+    .special-heading + p {
+        font-size: 23px;
+    }
+
+
+
+    /*  */
+    .header {
+        width: 450px;
+    }
+    
+    .header .container {
+        width: 460px;
+        margin-right: 0px ;
+    }
+
+    .header .links ul {
+        min-width: 150px ;
+    }
+
+
+
+    /*  */
+    .landing {
+
+        height: calc(100vh - 55px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 55px;
+    }
+
+    .landing .intro-text p {
+        font-size: 25px;
+        padding: 15px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    /*  */
+    .services .services-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        margin-top: 80px;
+        justify-items: center
+    }
+
+    .services .services-content .col {
+        width: 450px;
+    }
+
+    .services .services-content .srv i {
+        font-size: 45px;
+    }
+
+    .services .services-content .srv .text h3 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+
+    /*  */
+    .portfolio .portfolio-content .card .info h3 {
+        font-size: 25px;
+    }
+
+
+
+
+    /*  */
+    .contact .info .label {
+        font-size: 35px;
+    }
+
+    .contact .info .link {
+        font-size: 30px;
+    }
+
+    .contact .info .social {
+        margin-top: 40px;
+        font-size: 35px;
+        align-items: center;
+    }
+
+
+    /*  */
+    .footer {
+        font-size: 25px;
+        padding: 30px 5px;
+    }
+
+    .footer .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+}
+

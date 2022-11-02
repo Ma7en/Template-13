@@ -1,0 +1,164 @@
+
+/*
+
+280 => galaxy fold  
+
+*/
+
+@media (min-width: 241px) and (max-width: 280px) {
+    .container {
+        width: 260px;
+    }
+
+    /*  */
+    .special-heading {
+        font-size: 60px;
+    }
+
+    .special-heading + p {
+        font-size: 15px;
+        margin-top: -25px;
+    }
+
+
+
+
+
+    /*  */
+    .header {
+        width: 280px;
+    }
+
+    .header .container {
+        width: 240px;
+        margin-right: 0px ;
+    }
+
+    .header .links ul {
+        min-width: 130px ;
+    }
+
+
+
+
+    /*  */
+    .landing {
+        
+        height: calc(100vh - 55px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 35px;
+    }
+
+    .landing .intro-text p {
+        font-size: 15px;
+    }
+
+
+
+    /*  */
+    .features .container {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .features .feat {
+        width: 240px;
+    }
+
+    .features .feat i {
+        font-size: 30px;
+    }
+
+    .features .feat h3 {
+        font-weight: 600;
+    }
+
+    .features .feat p {
+        font-size: 15px;
+    }
+
+
+
+
+
+    /*  */
+    .services .services-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+
+    .services .services-content .col {
+        width: 230px;
+    }
+
+
+
+
+    /*  */
+    .portfolio .portfolio-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        margin-top: 60px;
+    }
+
+    .portfolio .portfolio-content .card {
+        width: 230px;
+    }
+
+    .portfolio .portfolio-content .card .info h3 {
+        font-size: 20px;
+    }
+
+
+    /*  */
+    .contact {
+        padding-bottom: 20px;
+    }
+
+    .contact .info {
+        width: 240px;
+    }
+
+    .contact .info .label {
+        letter-spacing: -1px;
+        font-size: 20px;
+    }
+
+    .contact .info .link {
+        font-size: 20px;
+    }
+
+    .contact .info .social {
+        width: 190px;
+        align-items: center;
+    }
+
+
+
+    /*  */
+    .about .about-content .image {
+        width: 220px;
+        height: 345px;
+        margin-bottom: 40px;
+    }
+
+    .about .about-content .text p:first-of-type {
+        margin-bottom: 40px ;
+        font-size: 15px;
+    }
+
+    .about .about-content .text p:last-of-type {
+        font-size: 15px;
+    }
+
+
+    /*  */
+    .footer {
+        font-size: 14px;
+        
+    }
+
+}
+
+

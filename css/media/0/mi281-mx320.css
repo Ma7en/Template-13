@@ -1,0 +1,148 @@
+
+/* 
+320 =>  nokia lumia 520 , 
+        iphone 4 - 
+        iphone 5/se  
+
+*/
+
+@media (min-width: 281px) and (max-width: 320px) {
+    .container {
+        width: 300px;
+    }
+
+    /*  */
+    .special-heading {
+        font-size: 70px;
+    }
+
+    .special-heading + p {
+        font-size: 18px;
+    }
+
+    /*  */
+    .header {
+        width: 280px;
+    }
+
+    .header .container {
+        margin-right: 0px ;
+    }
+
+    .header .links ul {
+        min-width: 140px ;
+    }
+
+
+    /*  */
+    .landing {
+
+        height: calc(100vh - 55px);
+    }
+
+    .landing .intro-text h1 {
+        font-size: 40px;
+    }
+
+    .landing .intro-text p {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+
+
+    /*  */
+    .features .container {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .features .feat {
+        width: 280px;
+    }
+
+    .features .feat i {
+        font-size: 40px;
+    }
+
+    .features .feat h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .features .feat p {
+        font-size: 15px;
+    }
+
+
+
+
+    /*  */
+    .services .services-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+
+    .services .services-content .col {
+        width: 280px;
+    }
+
+
+
+    /*  */
+    .portfolio .portfolio-content {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        margin-top: 60px;
+    }
+
+    .portfolio .portfolio-content .card {
+        width: 270px;
+    }
+
+    .portfolio .portfolio-content .card .info h3 {
+        font-size: 25px;
+    }
+
+
+
+    /*  */
+    .contact .info {
+        width: 280px;
+        padding-bottom: 20px;
+    }
+
+    .contact .info .label {
+        font-size: 25px;
+    }
+
+    .contact .info .link {
+        font-size: 22px;
+    }
+
+    .contact .info .social {
+        width: 270px;
+        align-items: center;
+    }
+
+
+
+    /*  */
+    .footer {
+        font-size: 18px;
+        padding: 30px 5px;
+    }
+
+    .footer .container {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+}
+
+
+
+
+
+
